@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618877949269",
+    "firebase_url": "https://eco-shop-1ece5.firebaseio.com",
+    "project_id": "eco-shop-1ece5",
+    "storage_bucket": "eco-shop-1ece5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618877949269:android:49c801a378ce07b71c0bdc",
+        "android_client_info": {
+          "package_name": "com.project.ecoshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618877949269-dr09g3nurll1deun8n69j1adn3nfh9pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-QQhkms-KmjkNJ02XObYv5Zn7zdahQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618877949269-dr09g3nurll1deun8n69j1adn3nfh9pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

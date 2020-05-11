@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#555BF3</color>
+    <color name="colorPrimaryDark">#ECF0F4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="White">#FDFDFE</color>
+    <color name="Black">#000000</color>
+    <color name="bck">#F6F8FA</color>
+    <color name="user">#9DA6B3</color>
+    <color name="welcome">#A5A5A5</color>
+    <color name="hint">#707070</color>
+    <color name="btn">#555BF3</color>
+    <color name="cbox">#02AA39</color>
+    <color name="coc">#0002AA39</color>
+    <color name="lili">#636A7B</color>
+    <color name="tsx">#FFFFFF</color>
+    <color name="trs">#00FFFFFF</color>
+    <color name="placeholder_bg">#dddddd</color>
+    <color name="item_name">#0c0c0c</color>
+    <color name="description">#1a1a1a</color>
+    <color name="chef">#777</color>
+    <color name="timestamp">#777</color>
+    <color name="Lite">#ffff</color>
+
+    //.........................Dark Mode.........................//
+    <color name="Darkmodebackground">#282C3A</color>
+    <color name="DarkmodeSecondaryBackground">#1B1D29</color>
+    <color name="DarkmodeTextTitleColor">#DEDFE2</color>
+    <color name="DarkmodeTextBodyColor">#B0B1B6</color>
+    <color name="Dd">#7366F7</color>
+    <color name="user1">#64666B</color>
+    <color name="bbc">#3E3E72</color>
+    <color name="dark">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

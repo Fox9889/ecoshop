@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ECO</string>
+    <string name="app_name2"> SHOP</string>
+    <string name="_2019_2020_eco_shop_all_rights_reserved">© 2019 - 2020 ECO SHOP</string>
+    <string name="shop">All Rights Reserved.</string>
+    <string name="bck">Back</string>
+    <string name="Name">Name</string>
+    <string name="logintext">User name</string>
+    <string name="pw">Password</string>
+    <string name="login">Email or Phone</string>
+    <string name="sgup">Type your name</string>
+    <string name="password">Type your password</string>
+    <string name="pwconfirm">Confirm Password</string>
+    <string name="pwconurfirm">Confirm your password</string>
+    <string name="caption">Keep Connected</string>
+    <string name="captionbody">Enter your email or phone and password to get access your account.</string>
+    <string name="btnlogin">Get Login</string>
+    <string name="RememberMe">Remember Me</string>
+    <string name="fgt">Forget Password?</string>
+    <string name="Email">Email</string>
+    <string name="Emailtp">Type your Email</string>
+    <string name="agree">I agree to the</string>
+    <string name="terms"><u>ECOSHOP</u></string>
+    <string name="CreateAccount">Create Account</string>
+    <string name="GTLG">Go To Login</string>
+    <string name="GetLogin">Get Login</string>
+
+
+</resources>

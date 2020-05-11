@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bck"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16.9dp"
+            android:drawableStart="@drawable/ic_arrow"
+            android:text="@string/bck"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:scrollbarSize="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="178dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/caption"
+                android:textColor="@color/Black"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="35dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:text="@string/captionbody"
+                android:textColor="@color/lili"
+                android:textSize="16sp"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rad"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/topred">
+
+
+                    <ImageView
+                        android:contentDescription="@string/login"
+                        android:scaleType="centerInside"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_user"
+                        android:layout_gravity="center"
+                        android:paddingLeft="25dp"
+                        android:paddingStart="25dp"
+                        android:paddingRight="20dp"
+                        android:paddingEnd="20dp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginStart="13dp"
+                            android:textAlignment="center"
+                            android:textSize="18sp"
+                            android:text="@string/logintext"
+                            android:textColor="@color/user" />
+
+                        <EditText
+                            android:autofillHints="@string/login"
+                            android:id="@+id/editText6"
+                            android:padding="10dp"
+                            android:layout_width="229.5dp"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:hint="@string/login"
+                            android:inputType="textEmailAddress"
+                            android:textColorHint="@color/hint"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.383"/>
+
+                    </LinearLayout>
+
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:visibility="invisible"
+                        android:layout_margin="12dp"
+                        android:id="@+id/Load2"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="18dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="false"
+                        android:layout_gravity="bottom"
+                        app:lottie_rawRes="@raw/mark"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:contentDescription="@string/password"
+                        android:scaleType="centerInside"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_password"
+                        android:layout_gravity="center"
+                        android:paddingLeft="25dp"
+                        android:paddingStart="25dp"
+                        android:paddingRight="20dp"
+                        android:paddingEnd="20dp"/>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+
+                        <TextView
+                            android:id="@+id/textoor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="13dp"
+                            android:layout_marginStart="13dp"
+                            android:textSize="18sp"
+                            android:text="@string/pw"
+                            android:textColor="@color/user" />
+
+                        <EditText
+                            android:autofillHints="@string/password"
+                            android:id="@+id/editText7"
+                            android:layout_width="229.5dp"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:ems="10"
+                            android:hint="@string/password"
+                            android:inputType="textPassword"
+                            android:textColorHint="@color/hint"
+                            app:layout_constraintEnd_toEndOf="@+id/editText6"
+                            app:layout_constraintStart_toStartOf="@+id/editText6"
+                            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+
+                    </LinearLayout>
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:visibility="invisible"
+                        android:id="@+id/Load1"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="bottom"
+                        android:layout_margin="12dp"
+                        app:lottie_autoPlay="true"
+                        app:lottie_loop="false"
+                        app:lottie_rawRes="@raw/mark" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="347dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="25dp"
+                android:gravity="center">
+
+                <CheckBox
+                    android:layout_marginRight="35dp"
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/RememberMe"
+                    android:textColor="@color/user"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:theme="@style/colored_checkBox" />
+
+                <TextView
+                    android:id="@+id/fgtp"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="@string/fgt"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/user"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="347dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn"
+                android:text="@string/GetLogin"
+                android:textAllCaps="false"
+                android:textColor="@color/White"
+                android:textSize="17sp"/>
+
+
+            <TextView
+
+                android:clickable="true"
+                android:focusable="true"
+                android:linksClickable="true"
+                android:id="@+id/button110"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="@string/CreateAccount"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
